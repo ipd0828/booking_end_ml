@@ -6,7 +6,6 @@ import pickle
 import streamlit as st 
 from PIL import Image 
 import datetime
-import lightgbm
 st.set_page_config(
         page_title="Расчет вероятности отмены бронирования", page_icon = 'favicon.ico'
 )
