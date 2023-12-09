@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
-$ pip install catboost
 import pandas as pd 
 import numpy as np 
 import pickle 
 import streamlit as st 
 from PIL import Image 
 import datetime
-from pandas.api.types import CategoricalDtype
+pip install catboost
 st.set_page_config(
         page_title="Расчет вероятности отмены бронирования", page_icon = 'favicon.ico'
 )
