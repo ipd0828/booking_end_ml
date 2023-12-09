@@ -6,6 +6,7 @@ import pickle
 import streamlit as st 
 from PIL import Image 
 import datetime
+pip3 install catboost
 st.set_page_config(
         page_title="Расчет вероятности отмены бронирования", page_icon = 'favicon.ico'
 )
